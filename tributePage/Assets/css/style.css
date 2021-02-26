@@ -1,0 +1,113 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(78, 78, 78);
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+header {
+    height: 150px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: whitesmoke;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.subtitle {
+    color: whitesmoke;
+    font-family: 'IBM Plex Mono', monospace;
+} 
+
+.principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.picture img {
+    max-width: 600px;
+    border: solid 10px whitesmoke;
+    border-bottom: solid 50px whitesmoke;
+    border-radius: 7px;
+    box-shadow: 0px 10px 50px;
+    margin-bottom: 50px;
+}
+
+.picture p {
+    text-align: center;
+    margin-top: -88px;
+    font-family: 'IBM Plex mono';
+    font-size: 13px;
+    font-style: italic;
+    background-color: rgb(78, 78, 78);
+}
+
+.description p {
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'IBM Plex mono';
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.timeline p {
+    text-align: center;
+    font-family: 'IBM Plex mono';
+    font-size: 18px;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+
+.discography {
+    list-style: none;
+    font-family: 'IBM Plex mono';
+    font-size: 15px;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.info p {
+    font-family: 'IBM Plex mono';
+    font-size: 15px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info a {
+    color: whitesmoke;
+}
+
+footer {
+    font-family: 'IBM Plex mono';
+    font-size: 10px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 50px;
+    border-top: solid 1px white;
+    height: 50px;
+}
